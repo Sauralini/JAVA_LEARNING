@@ -1,0 +1,49 @@
+SCENARIO 1
+
+1. create 10 notepad files(give names like file_1) on your local computer in a folder name prac
+
+2. Push the files to a new repository named as 2Dec
+
+3. Now go in GIT repository
+
+4. Create a new file on Git server itself named as file_11
+
+
+5. Now bring the newly created file . file to your folder which currently has only 10 file. after you get the changes you should have 11 files
+
+SCENARIO 2
+1. Create some files in a folder named as parent
+
+2. Push the files to repo named as "repo2"
+
+3. We will create a new branch from master branch called as day2 
+
+4. In day 2 create a new file named as newFileDay2.txt . Push the file to day2 repo
+
+5. then once done you should merge the file in the master branch as well
+
+
+GIT Commands
+
+git config --global user.name "SAURALINI"
+
+git config --global user.email "saurabhkiller01@gmail.com"
+
+git init
+
+git add *
+
+git status
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/qawork-coder/SimliLearnBatch26Nov.git
+
+git push -u origin master
+
+git pull
+
+git branch "new branch name"
+
+git branch -d branch-name // to delete the branch
+
