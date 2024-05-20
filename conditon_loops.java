@@ -4,7 +4,7 @@ public class conditon_loops {
 	public static void main(String[]args) {
 		
 		int a; // declaration that some value will be saved in the variable a
-		int b=5; // value initialise 
+		int b=5; // value initialize 
 		
 		int c=20;
 		String s="java";
